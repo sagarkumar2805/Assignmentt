@@ -1,5 +1,7 @@
-let btn = document.querySelectorAll("know-more");
+function myFunction() {
+    alert("I am an alert box!");
+  }
 
-btn.onclick = function(){
-    console.log("true")
-}
+function fees() {
+    alert("hello");    
+}  

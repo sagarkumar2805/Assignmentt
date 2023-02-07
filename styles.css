@@ -33,6 +33,18 @@ p {
     color: antiquewhite;
 }
 
+.know-more
+{
+    text-decoration: none;
+
+    align-items: center;
+}
+.know{
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+
 @media only screen and (max-width: 768px) {
     .container {
     flex-direction: row;
