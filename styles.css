@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border: 1px solid rgb(244, 226, 24);
+    column-gap: 25px;
+    background-color: rgb(244, 226, 24);
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+
+.box {    
+    background-color: white;
+}
+
+.box-details {
+    text-align: center;
+    padding: 45px;
+    max-width: 480px;
+}
+
+.price-details {
+    background-color: rgb(232, 243, 252);
+}
+
+p {
+    text-align: left;
+}
+
+.bar {
+    border: solid 1px;
+    color: antiquewhite;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+    flex-direction: row;
+    overflow-x: scroll;
+    }
+    
+    .box {
+    min-width: 100vw;
+    padding: 10px;
+    /* max-width: 500px; */
+    }
+    }
