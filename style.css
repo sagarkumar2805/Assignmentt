@@ -1,0 +1,93 @@
+body {
+    margin: 0%;
+  }
+  #slider {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+    background-color: rgb(244, 226, 24);
+    border: 1px solid rgb(244, 226, 24);
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+  }
+  
+  .slide {
+    width: 20%;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .info-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(207, 242, 253);
+    padding: 10px;
+  }
+  
+  .title {
+    padding-bottom: 20px;
+  }
+  
+  .title-section {
+    margin-top: 20px;
+    height: 20%;
+  }
+  
+  .info-section {
+    margin-top: 20px;
+    height: 70%;
+  }
+  
+  .bottom-section {
+    margin-bottom: 10px;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+  }
+  
+  .know {
+    text-decoration: none;
+    color: dodgerblue;
+    font-weight: bold;
+  }
+  
+  .starting {
+    font-size: 18px;
+  }
+  .amount {
+    font-size: 50px;
+    font-weight: bolder;
+  }
+  .fees {
+    font-size: 18px;
+    color: rgb(17, 51, 241);
+  }
+  
+  .description {
+    text-align: start;
+  }
+
+  .allIclusive{
+    color: black;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    #slider {
+    flex-direction: row;
+    overflow-x: scroll;
+    }
+    
+    .slide {
+    min-width: 100vw;
+    padding: 10px;
+    max-width: 500px;
+    }
+     } 
